@@ -109,6 +109,7 @@ namespace Windows95WeatherChanell
             {
                 pogoda_stan = "Sztorm z gradem";
             }
+            cis.Text = pogoda_stan;
         }
 
         private void Form1_Load(object sender, EventArgs e)
