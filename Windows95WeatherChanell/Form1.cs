@@ -31,6 +31,7 @@ namespace Windows95WeatherChanell
             string wilgotnosc_jednostka = myDeserializedClass.current_units.relative_humidity_2m.ToString();
             string wilgotnosc = wilgotnosc_wartosc + " " + wilgotnosc_jednostka;
             wil.Text = wilgotnosc;
+            string pogoda = myDeserializedClass.current.weather_code.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
