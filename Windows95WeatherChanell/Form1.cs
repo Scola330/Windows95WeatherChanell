@@ -32,6 +32,10 @@ namespace Windows95WeatherChanell
             string wilgotnosc = wilgotnosc_wartosc + " " + wilgotnosc_jednostka;
             wil.Text = wilgotnosc;
             string pogoda = myDeserializedClass.current.weather_code.ToString();
+            if(pogoda == "0")
+            {
+
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
